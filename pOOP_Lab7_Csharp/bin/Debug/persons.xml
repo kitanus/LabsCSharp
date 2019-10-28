@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ClipData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TrajectorySize>5</TrajectorySize>
+  <TrajectoryAngle>0</TrajectoryAngle>
+  <tbPositionX>5</tbPositionX>
+  <tbPositionY>5</tbPositionY>
+  <direction>0</direction>
+  <speedFigure>2</speedFigure>
+  <sizeFigure>5</sizeFigure>
+  <angleFigure>1</angleFigure>
+  <clrBack />
+  <clrTrajectory />
+  <arrFigure>
+    <int>140</int>
+    <int>140</int>
+    <int>140</int>
+    <int>140</int>
+  </arrFigure>
+</ClipData>

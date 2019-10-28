@@ -37,8 +37,8 @@ namespace pOOP_Lab_Csharp
             objFigureTwo.elippseScale = tbSpeedFigure.Value;
 
             // Передать свойству radius обьекта objFigureOne и objFigureTwo значение размера фигуры
-            objFigureOne.radius = tbSizeFigure.Value;
-            objFigureTwo.radius = tbSizeFigure.Value;
+            objFigureOne.breath = tbSizeFigure.Value;
+            objFigureTwo.breath = tbSizeFigure.Value;
 
             // Передать свойству angle обьекта objFigureOne и objFigureTwo угла фигуры
             objFigureOne.angle = (double)tbAngleFigure.Value / (double)(tbAngleFigure.Maximum - tbAngleFigure.Minimum);
@@ -58,7 +58,7 @@ namespace pOOP_Lab_Csharp
             objTrajectory.intPointCount = countPoints; // передача свойству intPointCount обьекта objTrajectory значение countPoints
             objTrajectory.Draw(pboxWorkSpace, e); // вызов метода Draw обьекта objTrajectory
 
-            objFigureOne.point = objTrajectory.getTrajectoryPoints();
+            objFigureOne.point = objTrajectory.getTrajectoryPoints(); // передача фигуре массив точек траектории
 
             // Рисование первой фигуры путем вызова метода Draw обьекта objFigureOne 
             // Аргументы: колличество точек траектории, идентификатор положения фигуры и обьект класса PaintEventArgs
@@ -119,17 +119,17 @@ namespace pOOP_Lab_Csharp
             objFigureTwo.elippseScale = tbSpeedFigure.Value;
         }
 
-        // изменение размера фигур
+        // изменение скорости дыхания фигур
         private void tbSizeFigure_ValueChanged(object sender, EventArgs e)
         {
             // если 0, то задать значение 1
             if (tbSizeFigure.Value == 0) tbSizeFigure.Value = 1;
             // передача свойству radius обьекта objFigureOne значения позунка
-            objFigureOne.radius = (double)(tbSizeFigure.Value) / (double)(tbSizeFigure.Maximum - tbSizeFigure.Minimum);
-            objFigureTwo.radius = (double)(tbSizeFigure.Value) / (double)(tbSizeFigure.Maximum - tbSizeFigure.Minimum);
+            objFigureOne.breath = (double)(tbSizeFigure.Value) / (double)(tbSizeFigure.Maximum - tbSizeFigure.Minimum);
+            objFigureTwo.breath = (double)(tbSizeFigure.Value) / (double)(tbSizeFigure.Maximum - tbSizeFigure.Minimum);
         }
 
-        // изменение угла фигур
+        // изменение скорости поворота фигур
         private void tbAngleFigure_ValueChanged(object sender, EventArgs e)
         {
             // если 0, то задать значение 1

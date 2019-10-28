@@ -31,31 +31,31 @@
             this.components = new System.ComponentModel.Container();
             this.pboxWorkSpace = new System.Windows.Forms.PictureBox();
             this.pnlControlSpace = new System.Windows.Forms.Panel();
-            this.lblTrajectorySize = new System.Windows.Forms.Label();
-            this.tbarTrajectorySize = new System.Windows.Forms.TrackBar();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lbTrajectoryAngle = new System.Windows.Forms.Label();
+            this.lbTrajectoryPositionY = new System.Windows.Forms.Label();
+            this.lbTrajectoryPositionX = new System.Windows.Forms.Label();
+            this.tbPositionY = new System.Windows.Forms.TrackBar();
+            this.tbPositionX = new System.Windows.Forms.TrackBar();
+            this.tbTrajectoryAngle = new System.Windows.Forms.TrackBar();
+            this.cbDirectionFigure = new System.Windows.Forms.CheckBox();
             this.lbAngleFigure = new System.Windows.Forms.Label();
             this.tbAngleFigure = new System.Windows.Forms.TrackBar();
             this.lbSizeFigure = new System.Windows.Forms.Label();
             this.lbSpeedFigure = new System.Windows.Forms.Label();
             this.tbSizeFigure = new System.Windows.Forms.TrackBar();
             this.tbSpeedFigure = new System.Windows.Forms.TrackBar();
-            this.cbDirectionFigure = new System.Windows.Forms.CheckBox();
-            this.lbTrajectoryPositionY = new System.Windows.Forms.Label();
-            this.lbTrajectoryPositionX = new System.Windows.Forms.Label();
-            this.tbPositionY = new System.Windows.Forms.TrackBar();
-            this.tbPositionX = new System.Windows.Forms.TrackBar();
-            this.tbTrajectoryAngle = new System.Windows.Forms.TrackBar();
-            this.lbTrajectoryAngle = new System.Windows.Forms.Label();
+            this.lblTrajectorySize = new System.Windows.Forms.Label();
+            this.tbarTrajectorySize = new System.Windows.Forms.TrackBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pboxWorkSpace)).BeginInit();
             this.pnlControlSpace.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbarTrajectorySize)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbAngleFigure)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSizeFigure)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSpeedFigure)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPositionY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPositionX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbTrajectoryAngle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbAngleFigure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbSizeFigure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbSpeedFigure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbarTrajectorySize)).BeginInit();
             this.SuspendLayout();
             // 
             // pboxWorkSpace
@@ -89,95 +89,14 @@
             this.pnlControlSpace.Size = new System.Drawing.Size(320, 330);
             this.pnlControlSpace.TabIndex = 1;
             // 
-            // lblTrajectorySize
+            // lbTrajectoryAngle
             // 
-            this.lblTrajectorySize.AutoSize = true;
-            this.lblTrajectorySize.Location = new System.Drawing.Point(24, 13);
-            this.lblTrajectorySize.Name = "lblTrajectorySize";
-            this.lblTrajectorySize.Size = new System.Drawing.Size(107, 13);
-            this.lblTrajectorySize.TabIndex = 1;
-            this.lblTrajectorySize.Text = "Размер траектории";
-            // 
-            // tbarTrajectorySize
-            // 
-            this.tbarTrajectorySize.Location = new System.Drawing.Point(36, 29);
-            this.tbarTrajectorySize.Name = "tbarTrajectorySize";
-            this.tbarTrajectorySize.Size = new System.Drawing.Size(104, 45);
-            this.tbarTrajectorySize.TabIndex = 0;
-            this.tbarTrajectorySize.Value = 5;
-            this.tbarTrajectorySize.ValueChanged += new System.EventHandler(this.tbarTrajectorySize_ValueChanged);
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // lbAngleFigure
-            // 
-            this.lbAngleFigure.AutoSize = true;
-            this.lbAngleFigure.Location = new System.Drawing.Point(163, 142);
-            this.lbAngleFigure.Name = "lbAngleFigure";
-            this.lbAngleFigure.Size = new System.Drawing.Size(91, 13);
-            this.lbAngleFigure.TabIndex = 29;
-            this.lbAngleFigure.Text = "Поворот фигуры";
-            // 
-            // tbAngleFigure
-            // 
-            this.tbAngleFigure.Location = new System.Drawing.Point(154, 161);
-            this.tbAngleFigure.Name = "tbAngleFigure";
-            this.tbAngleFigure.Size = new System.Drawing.Size(104, 45);
-            this.tbAngleFigure.TabIndex = 28;
-            this.tbAngleFigure.Value = 1;
-            this.tbAngleFigure.ValueChanged += new System.EventHandler(this.tbAngleFigure_ValueChanged);
-            // 
-            // lbSizeFigure
-            // 
-            this.lbSizeFigure.AutoSize = true;
-            this.lbSizeFigure.Location = new System.Drawing.Point(160, 85);
-            this.lbSizeFigure.Name = "lbSizeFigure";
-            this.lbSizeFigure.Size = new System.Drawing.Size(87, 13);
-            this.lbSizeFigure.TabIndex = 27;
-            this.lbSizeFigure.Text = "Размер фигуры";
-            // 
-            // lbSpeedFigure
-            // 
-            this.lbSpeedFigure.AutoSize = true;
-            this.lbSpeedFigure.Location = new System.Drawing.Point(151, 37);
-            this.lbSpeedFigure.Name = "lbSpeedFigure";
-            this.lbSpeedFigure.Size = new System.Drawing.Size(96, 13);
-            this.lbSpeedFigure.TabIndex = 26;
-            this.lbSpeedFigure.Text = "Скорость фигуры";
-            // 
-            // tbSizeFigure
-            // 
-            this.tbSizeFigure.Location = new System.Drawing.Point(154, 104);
-            this.tbSizeFigure.Maximum = 20;
-            this.tbSizeFigure.Name = "tbSizeFigure";
-            this.tbSizeFigure.Size = new System.Drawing.Size(104, 45);
-            this.tbSizeFigure.TabIndex = 25;
-            this.tbSizeFigure.Value = 5;
-            this.tbSizeFigure.ValueChanged += new System.EventHandler(this.tbSizeFigure_ValueChanged);
-            // 
-            // tbSpeedFigure
-            // 
-            this.tbSpeedFigure.Location = new System.Drawing.Point(154, 53);
-            this.tbSpeedFigure.Maximum = 5;
-            this.tbSpeedFigure.Name = "tbSpeedFigure";
-            this.tbSpeedFigure.Size = new System.Drawing.Size(104, 45);
-            this.tbSpeedFigure.TabIndex = 24;
-            this.tbSpeedFigure.Value = 2;
-            this.tbSpeedFigure.ValueChanged += new System.EventHandler(this.tbSpeedFigure_ValueChanged);
-            // 
-            // cbDirectionFigure
-            // 
-            this.cbDirectionFigure.AutoSize = true;
-            this.cbDirectionFigure.Location = new System.Drawing.Point(153, 15);
-            this.cbDirectionFigure.Name = "cbDirectionFigure";
-            this.cbDirectionFigure.Size = new System.Drawing.Size(94, 17);
-            this.cbDirectionFigure.TabIndex = 30;
-            this.cbDirectionFigure.Text = "Направление";
-            this.cbDirectionFigure.UseVisualStyleBackColor = true;
-            this.cbDirectionFigure.CheckedChanged += new System.EventHandler(this.cbDirectionFigure_CheckedChanged);
+            this.lbTrajectoryAngle.AutoSize = true;
+            this.lbTrajectoryAngle.Location = new System.Drawing.Point(5, 61);
+            this.lbTrajectoryAngle.Name = "lbTrajectoryAngle";
+            this.lbTrajectoryAngle.Size = new System.Drawing.Size(143, 13);
+            this.lbTrajectoryAngle.TabIndex = 36;
+            this.lbTrajectoryAngle.Text = "Угол поворота траектории";
             // 
             // lbTrajectoryPositionY
             // 
@@ -224,14 +143,95 @@
             this.tbTrajectoryAngle.TabIndex = 31;
             this.tbTrajectoryAngle.ValueChanged += new System.EventHandler(this.tbTrajectoryAngle_ValueChanged);
             // 
-            // lbTrajectoryAngle
+            // cbDirectionFigure
             // 
-            this.lbTrajectoryAngle.AutoSize = true;
-            this.lbTrajectoryAngle.Location = new System.Drawing.Point(5, 61);
-            this.lbTrajectoryAngle.Name = "lbTrajectoryAngle";
-            this.lbTrajectoryAngle.Size = new System.Drawing.Size(143, 13);
-            this.lbTrajectoryAngle.TabIndex = 36;
-            this.lbTrajectoryAngle.Text = "Угол поворота траектории";
+            this.cbDirectionFigure.AutoSize = true;
+            this.cbDirectionFigure.Location = new System.Drawing.Point(153, 15);
+            this.cbDirectionFigure.Name = "cbDirectionFigure";
+            this.cbDirectionFigure.Size = new System.Drawing.Size(94, 17);
+            this.cbDirectionFigure.TabIndex = 30;
+            this.cbDirectionFigure.Text = "Направление";
+            this.cbDirectionFigure.UseVisualStyleBackColor = true;
+            this.cbDirectionFigure.CheckedChanged += new System.EventHandler(this.cbDirectionFigure_CheckedChanged);
+            // 
+            // lbAngleFigure
+            // 
+            this.lbAngleFigure.AutoSize = true;
+            this.lbAngleFigure.Location = new System.Drawing.Point(163, 142);
+            this.lbAngleFigure.Name = "lbAngleFigure";
+            this.lbAngleFigure.Size = new System.Drawing.Size(91, 13);
+            this.lbAngleFigure.TabIndex = 29;
+            this.lbAngleFigure.Text = "Поворот фигуры";
+            // 
+            // tbAngleFigure
+            // 
+            this.tbAngleFigure.Location = new System.Drawing.Point(154, 161);
+            this.tbAngleFigure.Name = "tbAngleFigure";
+            this.tbAngleFigure.Size = new System.Drawing.Size(104, 45);
+            this.tbAngleFigure.TabIndex = 28;
+            this.tbAngleFigure.Value = 1;
+            this.tbAngleFigure.ValueChanged += new System.EventHandler(this.tbAngleFigure_ValueChanged);
+            // 
+            // lbSizeFigure
+            // 
+            this.lbSizeFigure.AutoSize = true;
+            this.lbSizeFigure.Location = new System.Drawing.Point(160, 85);
+            this.lbSizeFigure.Name = "lbSizeFigure";
+            this.lbSizeFigure.Size = new System.Drawing.Size(142, 13);
+            this.lbSizeFigure.TabIndex = 27;
+            this.lbSizeFigure.Text = "Скорость дыхания фигуры";
+            // 
+            // lbSpeedFigure
+            // 
+            this.lbSpeedFigure.AutoSize = true;
+            this.lbSpeedFigure.Location = new System.Drawing.Point(151, 37);
+            this.lbSpeedFigure.Name = "lbSpeedFigure";
+            this.lbSpeedFigure.Size = new System.Drawing.Size(96, 13);
+            this.lbSpeedFigure.TabIndex = 26;
+            this.lbSpeedFigure.Text = "Скорость фигуры";
+            // 
+            // tbSizeFigure
+            // 
+            this.tbSizeFigure.Location = new System.Drawing.Point(154, 104);
+            this.tbSizeFigure.Maximum = 20;
+            this.tbSizeFigure.Name = "tbSizeFigure";
+            this.tbSizeFigure.Size = new System.Drawing.Size(104, 45);
+            this.tbSizeFigure.TabIndex = 25;
+            this.tbSizeFigure.Value = 5;
+            this.tbSizeFigure.ValueChanged += new System.EventHandler(this.tbSizeFigure_ValueChanged);
+            // 
+            // tbSpeedFigure
+            // 
+            this.tbSpeedFigure.Location = new System.Drawing.Point(154, 53);
+            this.tbSpeedFigure.Maximum = 5;
+            this.tbSpeedFigure.Name = "tbSpeedFigure";
+            this.tbSpeedFigure.Size = new System.Drawing.Size(104, 45);
+            this.tbSpeedFigure.TabIndex = 24;
+            this.tbSpeedFigure.Value = 2;
+            this.tbSpeedFigure.ValueChanged += new System.EventHandler(this.tbSpeedFigure_ValueChanged);
+            // 
+            // lblTrajectorySize
+            // 
+            this.lblTrajectorySize.AutoSize = true;
+            this.lblTrajectorySize.Location = new System.Drawing.Point(24, 13);
+            this.lblTrajectorySize.Name = "lblTrajectorySize";
+            this.lblTrajectorySize.Size = new System.Drawing.Size(107, 13);
+            this.lblTrajectorySize.TabIndex = 1;
+            this.lblTrajectorySize.Text = "Размер траектории";
+            // 
+            // tbarTrajectorySize
+            // 
+            this.tbarTrajectorySize.Location = new System.Drawing.Point(36, 29);
+            this.tbarTrajectorySize.Name = "tbarTrajectorySize";
+            this.tbarTrajectorySize.Size = new System.Drawing.Size(104, 45);
+            this.tbarTrajectorySize.TabIndex = 0;
+            this.tbarTrajectorySize.Value = 5;
+            this.tbarTrajectorySize.ValueChanged += new System.EventHandler(this.tbarTrajectorySize_ValueChanged);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmMain
             // 
@@ -247,13 +247,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pboxWorkSpace)).EndInit();
             this.pnlControlSpace.ResumeLayout(false);
             this.pnlControlSpace.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbarTrajectorySize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbAngleFigure)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSizeFigure)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbSpeedFigure)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPositionY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPositionX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbTrajectoryAngle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbAngleFigure)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbSizeFigure)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbSpeedFigure)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbarTrajectorySize)).EndInit();
             this.ResumeLayout(false);
 
         }

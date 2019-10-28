@@ -10,16 +10,20 @@ using System.Windows.Forms;
 using nsTrajectory; // использование пространства имен в котором находится траектория
 using nsFigure; // использование пространства имен в котором находится фигура
 using System.Diagnostics; // использование класса который позволяет диагностировать
+using System.Xml.Serialization;
+using System.IO;
+using System.Xml;
 
 namespace pOOP_Lab_Csharp
 {
-   
+
     public partial class frmMain : Form
     {
         Trajectory objTrajectory = new Trajectory(); // обьявление обьекта траектории
         Figure objFigureOne = new Figure(); // обьявление обьекта первой фигуры
         Figure objFigureTwo = new Figure(); // обьявление обьекта второй фигуры
-        
+        ClipData clData = new ClipData();
+
         Color backColor = Color.White;
 
         public frmMain()
@@ -39,7 +43,7 @@ namespace pOOP_Lab_Csharp
             objFigureTwo.elippseScale = tbSpeedFigure.Value;
 
             // Передать свойству radius обьекта objFigureOne и objFigureTwo значение размера фигуры
-           // objFigureOne.radius = tbSizeFigure.Value;
+            // objFigureOne.radius = tbSizeFigure.Value;
             //objFigureTwo.radius = tbSizeFigure.Value;
 
             // Передать свойству angle обьекта objFigureOne и objFigureTwo угла фигуры
@@ -99,11 +103,11 @@ namespace pOOP_Lab_Csharp
         private void frmMain_Paint(object sender, PaintEventArgs e)
         {
             // настройки области рисования и контроля
-            pboxWorkSpace.Top = 0; 
-            pboxWorkSpace.Left = 0; 
+            pboxWorkSpace.Top = 0;
+            pboxWorkSpace.Left = 0;
             pboxWorkSpace.Height = this.ClientSize.Height;
             pboxWorkSpace.Width = this.ClientSize.Width / 2;
-            pnlControlSpace.Top = 0; 
+            pnlControlSpace.Top = 0;
             pnlControlSpace.Left = this.ClientSize.Width / 2;
             pnlControlSpace.Height = this.ClientSize.Height;
             pnlControlSpace.Width = this.ClientSize.Width / 2;
@@ -122,7 +126,7 @@ namespace pOOP_Lab_Csharp
             color++;
             i++;
 
-            if(color == 1530)
+            if (color == 1530)
             {
                 color = 0;
             }
@@ -227,7 +231,7 @@ namespace pOOP_Lab_Csharp
                     lbSetting.Items[int.Parse(textBox1.Text)] = tbItem.Text;
                 }
             }
-            
+
         }
 
         private void lbSetting_SelectedIndexChanged(object sender, EventArgs e)
@@ -247,7 +251,7 @@ namespace pOOP_Lab_Csharp
         {
             if (lbSetting.Items.Count > 2 && textBox1.Text.Length != 0)
             {
-            lbSetting.Items.RemoveAt(int.Parse(textBox1.Text));
+                lbSetting.Items.RemoveAt(int.Parse(textBox1.Text));
             }
         }
 
@@ -269,65 +273,104 @@ namespace pOOP_Lab_Csharp
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
-            string text = "";
+            clData.TrajectorySize = tbarTrajectorySize.Value;
+            clData.TrajectoryAngle = tbTrajectoryAngle.Value;
+            clData.tbPositionX = tbPositionX.Value;
+            clData.tbPositionY = tbPositionY.Value;
+            clData.direction = k;
 
-            text = text + "s" + tbarTrajectorySize.Value+";|";
-            text = text + "a" + tbTrajectoryAngle.Value + ";|";
-            text = text + "x" + tbPositionX.Value + ";|";
-            text = text + "y" + tbPositionY.Value + ";|";
-            text = text + "d" + k + ";|";
+            clData.sizeFigure = tbSizeFigure.Value;
+            clData.speedFigure = tbSpeedFigure.Value;
+            clData.angleFigure = tbAngleFigure.Value;
 
-            text = text + "f";
+            clData.arrFigure = new int[lbSetting.Items.Count];
 
-            for (int d = 0; d < lbSetting.Items.Count; d++)
+            for (int i = 0; i < lbSetting.Items.Count; i++)
             {
-                text = text + Convert.ToString(lbSetting.Items[d])+";";
+                clData.arrFigure[i] = Convert.ToInt32(lbSetting.Items[i]);
             }
 
-            text = text + "|";
+            XmlSerializer formatter = new XmlSerializer(typeof(ClipData));
 
-            Clipboard.SetText(text);
+            // получаем поток, куда будем записывать сериализованный объект
+            using (FileStream fs = new FileStream("persons.xml", FileMode.OpenOrCreate))
+            {
+                formatter.Serialize(fs, clData);
+            }
+
+            // чтение из файла
+            using (FileStream fstream = File.OpenRead("persons.xml"))
+            {
+                // преобразуем строку в байты
+                byte[] array = new byte[fstream.Length];
+                // считываем данные
+                fstream.Read(array, 0, array.Length);
+                // декодируем байты в строку
+                string textFromFile = System.Text.Encoding.Default.GetString(array);
+                Clipboard.SetText(textFromFile);
+            }
+
+            FileStream stream = File.Open("persons.xml", FileMode.Truncate);
+            stream.Close();
         }
 
         private void btnPaste_Click(object sender, EventArgs e)
         {
-            string[] words = getDataFromString(Clipboard.GetText(), 'f', ';');
+            ClipData colData = new ClipData();
 
-            string[] figure = new string[words.Length - 1];
+            using (FileStream stream = File.Open("persons.xml", FileMode.OpenOrCreate))
+            {
+                using (StreamWriter sw = new StreamWriter(stream))
+                {
+                    sw.WriteLine(Clipboard.GetText());
+                }
+            }
+
+            XmlSerializer formatter = new XmlSerializer(typeof(ClipData));
+
+            using (FileStream fs = new FileStream("persons.xml", FileMode.OpenOrCreate))
+            {
+                colData = (ClipData)formatter.Deserialize(fs);
+            }
+
+            tbarTrajectorySize.Value = colData.TrajectorySize;
+            tbTrajectoryAngle.Value = colData.TrajectoryAngle;
+            tbPositionX.Value = colData.tbPositionX;
+            tbPositionY.Value = colData.tbPositionY;
+
+            objFigureOne.direction = Math.Pow(-1, colData.direction);
+            objFigureTwo.direction = Math.Pow(-1, colData.direction);
+
+            tbSpeedFigure.Value = colData.speedFigure;
+            tbSizeFigure.Value = colData.sizeFigure;
+            tbAngleFigure.Value = colData.angleFigure;
 
             lbSetting.Items.Clear();
 
-            for (int d = 0; d < words.Length - 1; d++)
+            for (int d = 0; d < colData.arrFigure.Length; d++)
             {
-                lbSetting.Items.Add(words[d]);
+              //  Debug.WriteLine(colData.arrFigure[d]);
+                lbSetting.Items.Add(colData.arrFigure[d]);
             }
-
-            words = getDataFromString(Clipboard.GetText(), 's', ';');
-            tbarTrajectorySize.Value = Convert.ToInt32(words[0]);
-
-            words = getDataFromString(Clipboard.GetText(), 'a', ';');
-            tbTrajectoryAngle.Value = Convert.ToInt32(words[0]);
-
-            words = getDataFromString(Clipboard.GetText(), 'x', ';');
-            tbPositionX.Value = Convert.ToInt32(words[0]);
-
-            words = getDataFromString(Clipboard.GetText(), 'y', ';');
-            tbPositionY.Value = Convert.ToInt32(words[0]);
-
-            words = getDataFromString(Clipboard.GetText(), 'd', ';');
-            objFigureOne.direction = Math.Pow(-1, Convert.ToInt32(words[0]));
-            objFigureTwo.direction = Math.Pow(-1, Convert.ToInt32(words[0]));
         }
+    }
 
-        private string[] getDataFromString(string str, char word, char end)
-        {
-            string[] strArr;
+    [Serializable]
+    public class ClipData
+    {
+        public ClipData() { }
 
-            string[] words = Clipboard.GetText().Split(new char[] { word });
-            string[] wordsTwo = words[1].Split(new char[] { '|' });
-            strArr = wordsTwo[0].Split(new char[] { end });
+        public int TrajectorySize {set; get;}
+        public int TrajectoryAngle {set; get;}
+        public int tbPositionX {set; get;}
+        public int tbPositionY {set; get;}
+        public int direction {set; get;}
+        public int speedFigure { set; get; }
+        public int sizeFigure { set; get; }
+        public int angleFigure { set; get; }
+        public Color clrBack { set; get; }
+        public Color clrTrajectory { set; get; }
 
-            return strArr;
-        }
+        public int[] arrFigure { set; get; }
     }
 }
