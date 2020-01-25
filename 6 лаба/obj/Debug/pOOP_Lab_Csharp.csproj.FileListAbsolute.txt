@@ -1,0 +1,181 @@
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab_Csharp\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Барков\Учебный_процесс\ООП\Лабораторные_ООП_C#\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+D:\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe.config
+D:\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe
+D:\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.pdb
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csprojAssemblyReference.cache
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.cache
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.CoreCompileInputs.cache
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.exe
+D:\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\PC\Desktop\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.pdb
+D:\Программирование_2019\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe.config
+D:\Программирование_2019\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.exe
+D:\Программирование_2019\pOOP_Lab2_Csharp\bin\Debug\pOOP_Lab_Csharp.pdb
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csprojAssemblyReference.cache
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.cache
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.csproj.CoreCompileInputs.cache
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.exe
+D:\Программирование_2019\pOOP_Lab2_Csharp\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\mscorlib.dll
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\normidna.nlp
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\normnfc.nlp
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\normnfd.nlp
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Downloads\LabStarosta\вторая\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Downloads\LabStarosta\вторая\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Downloads\LabStarosta\третья\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\mscorlib.dll
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\normidna.nlp
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\normnfc.nlp
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\normnfd.nlp
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Downloads\LabStarosta\третья\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\mscorlib.dll
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\normidna.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\normnfc.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\normnfd.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Downloads\LabStarosta\четвертая\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\mscorlib.dll
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\normidna.nlp
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\normnfc.nlp
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\normnfd.nlp
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Downloads\LabStarosta\пятая\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Downloads\LabStarosta\пятая\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\mscorlib.dll
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\normidna.nlp
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\normnfc.nlp
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\normnfd.nlp
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Downloads\LabStarosta\шестая\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Downloads\LabStarosta\шестая\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\mscorlib.dll
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\normidna.nlp
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\normnfc.nlp
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\normnfd.nlp
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Desktop\лаба_Барков_2_вариант\шестая\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\pOOP_Lab_Csharp.exe.config
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\pOOP_Lab_Csharp.exe
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\pOOP_Lab_Csharp.pdb
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\mscorlib.dll
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\System.Net.Http.dll
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\System.Net.Http.xml
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\ru\System.Net.Http.resources.dll
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\normidna.nlp
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\normnfc.nlp
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\normnfd.nlp
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\normnfkc.nlp
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\bin\Debug\normnfkd.nlp
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.Properties.Resources.resources
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.frmMain.resources
+C:\Users\владислав\Desktop\лаба_Барков_7_вариант\6 лаба\obj\Debug\pOOP_Lab_Csharp.csproj.GenerateResource.Cache
